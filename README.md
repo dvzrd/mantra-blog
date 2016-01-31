@@ -1,6 +1,6 @@
-## A Sample Blog App Written in Mantra
+## Mantra Blog
 
-This is a sample blog app written in [Mantra](https://github.com/kadirahq/mantra) covering core features of it.
+Using sample blog app for a blog using [Mantra](https://github.com/kadirahq/mantra) in order to learn more about Mantra and Meteor 1.3.
 
 ### Setting Up
 
@@ -10,7 +10,7 @@ This is a sample blog app written in [Mantra](https://github.com/kadirahq/mantra
 
 ### Running The App
 
-Simply start you app with `meteor -p 5005`. 
+Simply start you app with `meteor -p 5005`.
 Then you can access the app on <http://localhost:5005>
 
 ### Running Tests
