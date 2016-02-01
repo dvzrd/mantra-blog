@@ -4,7 +4,7 @@ import React from 'react';
 const Layout = ({content = () => null }) => (
   <layout className="layout">
     <header className="header">
-      <h1>Mantra Voice</h1>
+      <Logo />
       <Navigation />
     </header>
 
