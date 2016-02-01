@@ -1,4 +1,6 @@
+import Logo from '../logo/index.jsx';
 import Navigation from '../navigation/index.jsx';
+import Copyright from '../copyright/index.jsx';
 import React from 'react';
 
 const Layout = ({content = () => null }) => (
@@ -13,7 +15,7 @@ const Layout = ({content = () => null }) => (
     </main>
 
     <footer className="footer">
-      <p className="copyright">&copy; 2016, <a href="http://damirvazgird.com">Damir Vazgird</a>.</p>
+      <Copyright />
     </footer>
   </layout>
 );
