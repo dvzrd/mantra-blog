@@ -2,20 +2,20 @@ import Navigation from '../navigation/index.jsx';
 import React from 'react';
 
 const Layout = ({content = () => null }) => (
-  <div>
-    <header>
+  <layout className="layout">
+    <header className="header">
       <h1>Mantra Voice</h1>
       <Navigation />
     </header>
 
-    <div>
+    <main className="main">
       {content()}
-    </div>
+    </main>
 
-    <footer>
-      <small>Built with <a href='https://github.com/kadirahq/mantra'>Mantra</a> & Meteor.</small>
+    <footer className="footer">
+      <p className="copyright">&copy; 2016, <a href="http://damirvazgird.com">Damir Vazgird</a>.</p>
     </footer>
-  </div>
+  </layout>
 );
 
 export default Layout;
