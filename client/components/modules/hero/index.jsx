@@ -16,12 +16,12 @@ class Hero extends React.Component {
   }
 
   componentDidMount() {
-    text = 'HELLO'; // The message displayed
+    text = 'DV'; // The message displayed
     chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // All possible Charactrers
-    scale = 50;  // Font size and overall scale
+    scale = 100;  // Font size and overall scale
     breaks = 0.003;  // Speed loss per frame
     endSpeed = 0.05;  // Speed at which the letter stops
-    firstLetter = 220;  // Number of frames untill the first letter stopps (60 frames per second)
+    firstLetter = 220;  // Number of frames until the first letter stopps (60 frames per second)
     delay = 40;  // Number of frames between letters stopping
 
 
@@ -53,10 +53,10 @@ class Hero extends React.Component {
       ctx.setTransform(1, 0, 0, 1, 0, 0);
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.globalAlpha = 1;
-      ctx.fillStyle = '#622';
+      ctx.fillStyle = '#fff';
       ctx.fillRect(0, (canvas.height - scale) / 2, canvas.width, scale);
       for (var i = 0; i < text.length; i++) {
-        ctx.fillStyle = '#ccc';
+        ctx.fillStyle = '#08141B';
         ctx.textBaseline = 'middle';
         ctx.textAlign = 'center';
         ctx.setTransform(1, 0, 0, 1, Math.floor((canvas.width - scale * (text.length - 1)) / 2), Math.floor(canvas.height / 2));
