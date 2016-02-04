@@ -9,7 +9,6 @@ const Layout = ({content = () => null }) => (
     <header className="header">
       <Logo />
       <Hero />
-      <Vortex />
       <Navigation />
     </header>
 
